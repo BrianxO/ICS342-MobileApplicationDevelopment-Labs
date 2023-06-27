@@ -112,7 +112,6 @@ fun DataItemView(dataItem: DataItem) {
 @Composable
 fun DataItemList(dataItems: List<DataItem>) {
     /* Create the list here. This function will call DataItemView() */
-
     LazyColumn(modifier = Modifier.fillMaxSize()) {
         items(dataItems) { dataItem ->
             DataItemView(dataItem = dataItem)
