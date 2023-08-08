@@ -4,4 +4,6 @@ data class DataItem(
     val id: Int,
     val name: String,
     val description: String,
-)
+) {
+
+}
